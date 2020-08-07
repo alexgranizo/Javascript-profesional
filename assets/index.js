@@ -1,13 +1,13 @@
-import MediaPlayer from './MediaPlayer.js';
-import AutoPlay from './plugins/AutoPlay.js';
+//para importar scripts dentro de un archivo de javascript usamos la siguiente sintaxis
+import MediaPlayer from "./MediaPlayer.js";
 
-const video = document.querySelector('video');
+const video = document.querySelector("video");
 const player = new MediaPlayer({ el: video, plugins: [new AutoPlay()] });
 
-const playButton = document.querySelector('#playButton');
+const playButton = document.querySelector("#playButton");
 playButton.onclick = () => player.togglePlay();
 
-const muteButton = document.querySelector('#muteButton');
+const muteButton = document.querySelector("#muteButton");
 muteButton.onclick = () => {
   if (player.media.muted) {
     player.unmute();

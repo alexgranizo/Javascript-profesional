@@ -1,0 +1,26 @@
+{
+  "name": "javascript-profesional",
+  "version": "1.0.0",
+  "description": "Practica del curso de javascript profesional de platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocapincho/Javascript-profesional.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Brayan Ñauñay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cocapincho/Javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/cocapincho/Javascript-profesional#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
